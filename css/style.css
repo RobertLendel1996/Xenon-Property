@@ -573,25 +573,25 @@ body::after {
 
 @-webkit-keyframes menu {
   0% {
-    -webkit-transform: scale(0.4);
-            transform: scale(0.4);
+    -webkit-opacity: 0;
+            opacity: 0;
   }
 
   100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    -webkit-opacity: 1;
+            opacity: 1;
   }
 }
 
 @keyframes menu {
   0% {
-    -webkit-transform: scale(0.4);
-            transform: scale(0.4);
+    -webkit-opacity: 0;
+            opacity: 0;
   }
 
   100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    -webkit-opacity: 1;
+            opacity: 1;
   }
 }
 
